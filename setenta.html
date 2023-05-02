@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="diseños/diseños.css">
+</head>
+<body>
+    <nav><div class="barra"><ul><li><a href="index.html">Inicio</a></li>
+
+        <li><a href="noventa.html">Los 90</a></li>
+        <li><a href="ochenta.html">Los 80</a></li>
+        <li><a href="setenta.html">Los 70</a></li>
+        <li><a href="musica.html">Discografia</a></li>
+        <li><a href="cinema.html">Cinematografia</a></li>
+        </ul>
+        </div></nav>
+        
+<h1 class="setentatitle"> Bienvenida a los setenta </h1>
+
+ <img class="setentaimg"  src="apolo11.jpg" alt="apolo11">   
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <title>Barra lateral interactiva</title>
+     <style>
+         /* Estilos para la barra lateral */
+         .sidebar {
+             height: 100%;
+             width: 0;
+             position: fixed;
+             z-index: 1;
+             top: 0;
+             left: 0;
+             background-color: #111;
+             overflow-x: hidden;
+             transition: 0.5s;
+             padding-top: 60px;
+         }
+ 
+         /* Estilos para el contenido de la página */
+         .content {
+             margin-left: 250px;
+             transition: margin-left 0.5s;
+             padding: 20px;
+         }
+ 
+         /* Estilos para el botón de la barra lateral */
+         .openbtn {
+             font-size: 20px;
+             cursor: pointer;
+             background-color: #111;
+             color: #fff;
+             padding: 10px 15px;
+             border: none;
+             border-radius: 5px;
+             position: fixed;
+             top: 0;
+             left: 0;
+         }
+ 
+         /* Estilos para el enlace de la barra lateral */
+         .sidebar a {
+             padding: 8px 8px 8px 32px;
+             text-decoration: none;
+             font-size: 25px;
+             color: #818181;
+             display: block;
+             transition: 0.3s;
+         }
+ 
+         /* Estilos para el enlace de la barra lateral al pasar el mouse por encima */
+         .sidebar a:hover {
+             color: #f1f1f1;
+         }
+ 
+         /* Estilos para el botón de cerrar la barra lateral */
+         .closebtn {
+             position: absolute;
+             top: 0;
+             right: 25px;
+             font-size: 36px;
+             margin-left: 50px;
+         }
+     </style>
+ </head>
+ <body>
+ 
+     <!-- Botón para abrir la barra lateral -->
+     <button class="openbtn" onclick="openNav()">☰ Menú</button>
+ 
+     <!-- Barra lateral -->
+     <div id="mySidebar" class="sidebar">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+         <a href="#">Enlace 1</a>
+         <a href="#">Enlace 2</a>
+         <a href="#">Enlace 3</a>
+     </div>
+ 
+     <!-- Contenido de la página -->
+     <div class="content">
+         <h2>Título de la página</h2>
+         <p>Contenido de la página</p>
+     </div>
+ 
+     <!-- Script para abrir y cerrar la barra lateral -->
+     <script>
+         function openNav() {
+             document.getElementById("mySidebar").style.width = "250px";
+             document.getElementById("main").style.marginLeft = "250px";
+         }
+ 
+         function closeNav() {
+             document.getElementById("mySidebar").style.width = "0";
+             document.getElementById("main").style.marginLeft = "0";
+         }
+     </script>
+ </body>
+ </html>
+ 
+ 
+</body>
+</html>
